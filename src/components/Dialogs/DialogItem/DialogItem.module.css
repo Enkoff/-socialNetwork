@@ -1,0 +1,17 @@
+.dialogsItem {
+    padding: 10px;
+}
+
+.dialogsItem .active {
+    color: gold;
+}
+
+.dialogsItem .item{
+    text-decoration: none;
+    color: white;
+}
+
+.dialogsItem .item:hover{
+    transition: .3s;
+    color: black;
+}

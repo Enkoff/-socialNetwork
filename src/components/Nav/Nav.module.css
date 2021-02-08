@@ -1,0 +1,23 @@
+.nav {
+  grid-area: n;
+  background-color: rgb(54, 170, 8);
+  text-align: center;
+  padding: 10px;
+  width: 12rem;
+  height: 83vh;
+}
+
+.item a{
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: white;
+}
+
+.item a.active {
+  color: gold;
+}
+
+.item a:hover{
+  transition: .2s;
+  color: rgb(0, 0, 0);
+}

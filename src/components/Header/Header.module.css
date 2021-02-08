@@ -1,0 +1,22 @@
+.header {
+  position: relative;
+  grid-area: h;
+  background-color: rgb(0, 88, 170);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+.header img {
+  width: 40px;
+}
+
+.loginBlock {
+  position: absolute;
+  right: 10px;
+}
+
+.loginBlock a {
+  color: white;
+  text-decoration: none;
+}
